@@ -1,12 +1,12 @@
-🌦️ Weather App - Flutter Lab 4
+-  Weather App - Flutter Lab 4
 Sinh viên thực hiện: Trần Nhật Phi
 
 Mã số sinh viên: 2224802010436
 
-📝 Mô tả dự án
+-  Mô tả dự án
 Đây là ứng dụng dự báo thời tiết toàn diện được xây dựng bằng Flutter. Ứng dụng tích hợp API từ OpenWeatherMap để cung cấp thông tin thời tiết thời gian thực dựa trên vị trí GPS của người dùng hoặc tìm kiếm theo tên thành phố. Dự án tập trung vào việc quản lý trạng thái (State Management), xử lý bất đồng bộ, lưu trữ bộ nhớ đệm (Caching) và thiết kế giao diện động theo điều kiện thời tiết.
 
-✨ Tính năng chính (Core Features)
+-  Tính năng chính (Core Features)
 Vị trí tự động: Tự động phát hiện vị trí hiện tại qua GPS để hiển thị thời tiết.
 
 Thông tin thời tiết chi tiết: Hiển thị nhiệt độ, cảm giác thực tế, độ ẩm, tốc độ gió, áp suất và tầm nhìn.
@@ -37,7 +37,7 @@ Tùy chỉnh cài đặt: Cho phép thay đổi đơn vị nhiệt độ (°C/°
 
 
 
-🛠️ Công nghệ sử dụng
+-  Công nghệ sử dụng
 Ngôn ngữ: Dart & Framework Flutter.
 
 Quản lý trạng thái: Provider Pattern.
@@ -52,7 +52,7 @@ flutter_dotenv: Quản lý biến môi trường bảo mật API Key.
 
 cached_network_image: Hiển thị và lưu tạm icon thời tiết.
 
-⚙️ Hướng dẫn cài đặt và Chạy dự án
+-  Hướng dẫn cài đặt và Chạy dự án
 1. Yêu cầu hệ thống
 Flutter SDK bản mới nhất.
 

@@ -18,12 +18,15 @@
 * Tùy chỉnh cài đặt: Cho phép thay đổi đơn vị nhiệt độ (°C/°F), định dạng giờ (12h/24h) và đơn vị tốc độ gió.
 
 ## 🖼️ Ảnh chụp màn hình (Screenshots)
-- Screenshot 1: https://github.com/user-attachments/assets/f801b212-d002-426e-b02d-7da56b142753
-- Screenshot 2: https://github.com/user-attachments/assets/7e4c5435-a09a-45a5-a257-a39a2888dbed
-- Screenshot 3: https://github.com/user-attachments/assets/a9bd8da8-bf79-4aec-b635-ef8f040ff65e
-- Screenshot 4: https://github.com/user-attachments/assets/601c7c75-fdeb-422e-bbee-827e0c51e877
-- Screenshot 5: https://github.com/user-attachments/assets/e78cf7ba-3c06-4bb8-bf83-f544244928ff
-- Screenshot 6: https://github.com/user-attachments/assets/c38604fb-7af2-4d41-a661-ee3c4244e0ae
+- Screenshot 1: <img width="342" height="774" alt="image" src="https://github.com/user-attachments/assets/736b84a2-b53a-4b7b-a274-11c370870173" />
+
+- Screenshot 2: <img width="369" height="796" alt="image" src="https://github.com/user-attachments/assets/4c04d078-6b97-44c9-907b-8801dee21ffb" />
+
+- Screenshot 3: <img width="370" height="797" alt="image" src="https://github.com/user-attachments/assets/a72626ee-a170-45c7-b30b-38c8142a032d" />
+
+- Screenshot 4: <img width="363" height="797" alt="image" src="https://github.com/user-attachments/assets/e6c3d54f-9ce8-44de-bcbc-8fed2f6422f4" />
+
+- Screenshot 5: <img width="361" height="798" alt="image" src="https://github.com/user-attachments/assets/4630c046-671b-43c3-a777-f9b1bb695d27" />
 
 ## 🛠️ Công nghệ sử dụng
 * Ngôn ngữ: Dart & Framework Flutter.

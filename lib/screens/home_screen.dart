@@ -42,12 +42,10 @@ class _HomeScreenState extends State<HomeScreen> {
       ),
       body: Consumer<WeatherProvider>(
         builder: (context, provider, child) {
-          // Trạng thái 1: Đang tải dữ liệu
           if (provider.state == WeatherState.loading) {
             return LoadingShimmer();
           }
 
-          // Trạng thái 2: Lỗi
           if (provider.state == WeatherState.error) {
             return ErrorWidgetCustom(
               message: provider.errorMessage,
@@ -55,12 +53,10 @@ class _HomeScreenState extends State<HomeScreen> {
             );
           }
 
-          // Trạng thái 3: Không có dữ liệu
           if (provider.currentWeather == null) {
             return Center(child: Text('Không có dữ liệu thời tiết'));
           }
 
-          // Trạng thái 4: Thành công -> Mới cho phép kéo để refresh
           return RefreshIndicator(
             onRefresh: () => provider.refreshWeather(),
             child: SingleChildScrollView(

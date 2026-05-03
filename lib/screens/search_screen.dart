@@ -29,7 +29,7 @@ class _SearchScreenState extends State<SearchScreen> {
   Future<void> _saveFavorite(String city) async {
     if (!_favoriteCities.contains(city) && city.isNotEmpty) {
       setState(() {
-        if (_favoriteCities.length >= 5) _favoriteCities.removeAt(0); // Chỉ giữ tối đa 5 thành phố
+        if (_favoriteCities.length >= 5) _favoriteCities.removeAt(0); //  5 thành phố
         _favoriteCities.add(city);
       });
       await context.read<StorageService>().saveFavoriteCities(_favoriteCities);
